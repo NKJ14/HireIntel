@@ -28,7 +28,7 @@ function Input() {
                     type="text"
                     name="username"
                     id="username"
-                    className="block min-w-0 grow py-1.5 pr-3 pl-1 text-base text-gray-900 placeholder:text-gray-400 focus:outline-none sm:text-sm/6"
+                    className="block min-w-0 grow py-1.5 pr-3 pl-1 text-base text-gray-900 placeholder:text-gray-400 focus:outline-none sm:text-sm outline-gray-300 focus:outline-2 focus:outline-indigo-600 focus:-outline-offset-2"
                     placeholder="e.g. John Doe"
                     value={inputUser}
                     onChange={(e) => setUser(e.target.value)}

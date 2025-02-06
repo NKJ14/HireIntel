@@ -5,7 +5,7 @@ import Output from "./components/Output/Output";
 
 function App() {
   return (
-    <div class="bg-red-500">
+    <div>
      <Router>
       <Routes>
         <Route path="/" element={<Input/>} />
